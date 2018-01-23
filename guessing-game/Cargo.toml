@@ -5,7 +5,8 @@ authors = ["Deri Herdianto <derryherdianto@gmail.com>"]
 
 [dependencies.gtk]
 version = "0.3.0"
-features = "v3_16"
+features = ["v3_16"]
 
 [dependencies]
+rand = "0.3"
 gio = "0.3.0"
