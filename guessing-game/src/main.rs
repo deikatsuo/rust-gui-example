@@ -170,7 +170,7 @@ fn ui(app: &gtk::Application) {
 				*secret_clone.borrow_mut() = Some(rand::thread_rng().gen_range(1, 101));
 			},
 			Mode::Normal => {
-				*secret_clone.borrow_mut() = Some(rand::thread_rng().gen_range(1, 51));
+				*secret_clone.borrow_mut() = Some(rand::thread_rng().gen_range(1, 10));
 			}
 		}
 		b.set_sensitive(false);
